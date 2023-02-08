@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitwise Permissions Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="head">
+          <h3>Bitwise Permissions</h3>
+        </div>
+        <p>
+          Need some help with bit math? Use the tool below to calculate the
+          permissions integer for your system based on the features it needs.
+        </p>
+        <div class="content">
+          <div class="permissions"></div>
+          <div class="flags">
+            <label class="title-uppercase">Permissions Flag</label>
+            <div class="flag-input">
+              <input type="text" readonly value="0" maxlength="999" />
+              <button type="button">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bitwise-permissions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
