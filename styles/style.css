@@ -24,6 +24,31 @@ body {
   background: var(--background-color);
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+
+footer h4 {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer h4 a {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+footer h4 a:hover {
+  color: var(--purple-hover);
+  border-bottom: solid 1px var(--purple-hover);
+}
+
 button {
   cursor: pointer;
 }
