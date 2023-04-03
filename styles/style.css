@@ -17,9 +17,10 @@
   outline: 0;
 }
 
+html,
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: var(--background-color);
 }
@@ -29,7 +30,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 8px;
 }
 
 footer h4 {
@@ -55,7 +55,7 @@ button {
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
